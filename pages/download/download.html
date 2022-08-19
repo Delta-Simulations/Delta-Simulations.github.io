@@ -7,52 +7,94 @@
     <link href="download.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="../../images/logo.png">
 </head>
+
 <body>
-<div class="container">
-    <div class="navbar">
-        <a href="../../index.html">
-            <img src="../../images/logo.png" alt="logo-icon" class="logo">
-        </a>
-        <nav>
-            <ul id="menuList">
-                <li><a href="../../pages/download/download.html">Download</a></li>
-                <li><a href="../../pages/support/support.html">Support</a></li>
-                <li><a href="../../pages/donate/donate.html">Donate</a></li>
-            </ul>
-        </nav>
-        <img src="../../images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
-    </div>
+    <div class="container">
+        <div class="navbar">
+            <a href="../../index.html">
+                <img src="../../images/logo.png" alt="logo-icon" class="logo">
+            </a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="../../pages/download/download.html">Download</a></li>
+                    <li><a href="../../pages/support/support.html">Support</a></li>
+                    <li><a href="../../pages/donate/donate.html">Donate</a></li>
+                </ul>
+            </nav>
+            <img src="../../images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        </div>
 
-    <div class="row">
         <div class="col-1">
-            <h1>Ouroboros</h1>
-            <i>This section is still work in progress and soon we are going to release more content! Follow us in our Social Medias in the links below to get the most recent news about all the projects we are making.</i>
+            <h1>Downloads</h1>
+            <i>Our products are currently hosted on flightsim.to, with an installer in the works.</i>
         </div>
-        <div class="social-container">
-            <a href="https://www.youtube.com/c/OuroborosJets" class="external"><img src="../../images/Youtube_PNG.png" alt="youtube"></a>
-            <a href="https://twitter.com/OuroborosJets" class="external"><img src="../../images/Twitter_png.png" alt="twitter"></a>
-            <a href="https://discord.gg/GhkQ9wrrbp" class="external"><img src="../../images/Discord_PNG.png" alt="discord"></a>
-            <a href="https://github.com/Ouroboros-Jets" class="external"><img src="../../images/GitHub_PNG.png" alt="github"></a>
+
+        <div class="title-1">
+            <h2 id="lineup">Aircraft</h2>
         </div>
-    </div>
 
-    <div class="footer">
-        <p>© Ouroboros Jets and its contributors.</p>
-        <br>
-        <p>Made by LincolnCFCruz & Vitor_MD11</p>
-    </div>
-</div>
+        <div class="article-container">
+            <article class="article-card">
+                <figure class="article-image">
+                    <img src="../../images/E170.png" alt="C-17A">
+                </figure>
+                <div class="article-content">
+                    <a href="" class="card-category">Airlifter</a>
+                    <h3 class="card-title">Boeing C-17A</h3>
+                    <p class="card-excerpt">The best airlifter we have seen</p>
+                </div>
+            </article>
 
-<script>
-    const menuList = document.getElementById("menuList");
-    menuList.style.maxHeight = "0px";
+            <article class="article-card">
+                <figure class="article-image">
+                    <img src="images/wip.png" alt="UH60M">
+                </figure>
+                <div class="article-content">
+                    <a href="" class="card-category">Versatile Helicopter</a>
+                    <h3 class="card-title">Boeing UH-60M</h3>
+                    <p class="card-excerpt">The "Black Hawk", one of the most well known helicopters flying.</p>
+                </div>
+            </article>
 
-    function  togglemenu(){
-        if(menuList.style.maxHeight === "0px"){
-            menuList.style.maxHeight = "500px"
-        } else {
-            menuList.style.maxHeight = "0px"
+            <article class="article-card">
+                <figure class="article-image">
+                    <img src="images/wip.png" alt="WIP">
+                </figure>
+                <div class="article-content">
+                    <a href="" class="card-category">Unknown</a>
+                    <h3 class="card-title">FUTURE</h3>
+                    <p class="card-excerpt">We have some other projects that are unannounced and are slowly advancing. Check our discord for sneak peaks!</p>
+                </div>
+            </article>
+
+        </div>
+            
+            <div class="social-container">
+                <a href="https://www.youtube.com/c/OuroborosJets" class="external"><img src="../../images/Youtube_PNG.png" alt="youtube"></a>
+                <a href="https://twitter.com/OuroborosJets" class="external"><img src="../../images/Twitter_png.png" alt="twitter"></a>
+                <a href="https://discord.gg/GhkQ9wrrbp" class="external"><img src="../../images/Discord_PNG.png" alt="discord"></a>
+                <a href="https://github.com/Ouroboros-Jets" class="external"><img src="../../images/GitHub_PNG.png" alt="github"></a>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>© Ouroboros Jets and its contributors.</p>
+            <br>
+            <p>Made by LincolnCFCruz & Vitor_MD11</p>
+        </div>
+
+    <script>
+        const menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function  togglemenu(){
+            if(menuList.style.maxHeight === "0px"){
+                menuList.style.maxHeight = "500px"
+            } else {
+                menuList.style.maxHeight = "0px"
+            }
         }
-    }
-</script>
+    </script>
+</body>
 </html>

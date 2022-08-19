@@ -225,5 +225,28 @@ nav ul li a:hover{
     .footer {
         font-size: 10px;
     }
+    
+    .article-container-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
+        gap: 2rem;
+    }
+    .article-card{
+        background: hsl(218 90% 20% / 0.95);
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
+        border-radius: 7px;
+        transition: 0.3s;
+    }
+    
+    .article-card:hover {
+        box-shadow: 0 4px 20px 0 rgba(34,68,123,1);
+        cursor: pointer;
+    }
+    .article-image{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
 
 }
