@@ -209,6 +209,7 @@ nav ul li a:hover{
     .col-1 h1{
         text-align: center;
         font-size: 50px;
+        
     }
     .col-1 i{
         font-size: 15px;
@@ -230,6 +231,7 @@ nav ul li a:hover{
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
         gap: 2rem;
+        width: 100%;
     }
     .article-card{
         background: hsl(218 90% 20% / 0.95);
@@ -247,6 +249,13 @@ nav ul li a:hover{
         padding: 0;
         overflow: hidden;
     }
-    
+    .title-ac {
+        justify-content: center;
+        
+    }
+
+    .title-ac h2{
+        font-size: 35px;
+    }
 
 }
