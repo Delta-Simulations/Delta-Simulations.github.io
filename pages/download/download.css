@@ -232,6 +232,7 @@ nav ul li a:hover{
         grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
         gap: 2rem;
         width: 100%;
+        margin: auto;
     }
     .article-card{
         background: hsl(218 90% 20% / 0.95);

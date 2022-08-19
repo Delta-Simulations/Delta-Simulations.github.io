@@ -118,19 +118,19 @@ nav ul li a:hover{
     text-decoration: none;
     text-align: center;
     width: 200px;
-    border:solid 3px mediumpurple;
+    border:solid 3px rgb(255, 170, 0);
     color: white;
     padding: 10px 0;
     border-radius: 7px;
-    background: rgba(255, 255, 255,0);
+    background: rgba(0, 0, 0, 0);
     font-size: 20px;
-    text-shadow: 1px 1px 1px black, 0 0 1em #0c295c, 0 0 0.2em #0c295c;
+    text-shadow: 1px 1px 1px black, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
     cursor: pointer;
 }
 
 .buttons a:hover {
-    color:mediumpurple;
-    box-shadow: 0 4px 20px 0 rgba(34,68,123,1);
+    color:rgb(255, 255, 255);
+    box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
     transition: 0.2s;
 }
 
@@ -182,14 +182,14 @@ nav ul li a:hover{
 }
 
 .article-card{
-    background: hsl(218 90% 20% / 0.95);
+    background: rgba(187, 125, 0, 0.95);
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
 }
 
 .article-card:hover {
-    box-shadow: 0 4px 20px 0 rgba(34,68,123,1);
+    box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
     cursor: pointer;
 }
 
@@ -202,7 +202,7 @@ nav ul li a:hover{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #6b82a7;
+    color: #000000;
     display: block;
     text-decoration: none;
 }
@@ -213,10 +213,10 @@ nav ul li a:hover{
 }
 
 .article-content .card-excerpt {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #6b82a7;
-    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #000000;
+    margin: 50;
 }
 
 /* FAQ */
@@ -242,14 +242,14 @@ nav ul li a:hover{
 }
 
 .article-card-2{
-    background: hsl(218 90% 20% / 0.95);
+    background: rgba(187, 125, 0, 0.95);
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
 }
 
 .article-card-2:hover {
-    box-shadow: 0 4px 20px 0 rgba(34,68,123,1);
+    box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
     cursor: pointer;
 }
 
@@ -262,7 +262,7 @@ nav ul li a:hover{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #6b82a7;
+    color: #000000;
     display: block;
     text-decoration: none;
 }
@@ -273,10 +273,10 @@ nav ul li a:hover{
 }
 
 .article-content-2 .card-excerpt {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #6b82a7;
-    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #000000;
+    margin: 50;
 }
 
 /* After FAQ */
