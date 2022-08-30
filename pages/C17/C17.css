@@ -1,11 +1,9 @@
-.container{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url(../../images/C-17Page.png);
-    background-position: top, -130px;
+.parallaximage {
+    background-image: url("../../images/C-17Page.png");
+    width: 100%; 
+  
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-}
+  }

@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Downloads</title>
-    <link href="download.css" rel="stylesheet" />
+    <title>Download</title>
     <link href="../../style.css" rel="stylesheet" />
+    <link href="download.css" rel="stylesheet" />
+    
     <link rel="icon" href="../../images/logo.png">
 </head>
 
 <body>
+    <div class="parallaximage">
     <div class="container">
         <div class="navbar">
             <a href="../../index.html">
@@ -25,44 +27,62 @@
             <img src="../../images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
         </div>
 
-        <div class="col-1">
-            <h1>Downloads</h1>
-            <i>Our products are currently hosted on flightsim.to, with an installer in the works.</i>
+        <div class="row">
+            <div class="col-1">
+
+                <h1>
+                    Downloads
+                </h1>
+                <div class="buttons">
+                    <a href="#C17">C-17</a>
+                    <a href="#UH60">UH-60</a>
+                </div>
+            </div>
+
         </div>
+
+
         <div class="title-1">
-            <h2 id="lineup">Aircraft</h2>
+            <h2 id="C17">Get the <span style="color: cornflowerblue">C-17</span></h2>
+        </div> 
+        <div  class="article-container">  
+            <article class="article-card">
+                <figure class="article-image">
+                    <img src="../../images/E170.png" alt="C-17A" width="500">
+                </figure>
+                <div class="article-content">
+                    <a href="" class="card-category">EARLY ACCESS</a>
+                    <h1 class="card-title">Boeing C-17A</h1>
+                    <p class="card-excerpt">Used with diverse equipment and is the backbone of humanitarian misisons.</p>
+                    <div class="buttons"> 
+                        <a href="pages/C17/C17.html">Explore</a>
+                    </div>
+                </div>
+                
+            </article>
+        </div>
+
+        <div class="title-1">
+            <h2 id="UH60">Get the <span style="color: cornflowerblue">UH-60</span></h2></h2>
+        </div>
+        <div class="article-container">   
+            <article class="article-card">
+                <figure class="article-image">
+                    <img src="../../images/E170.png" alt="C-17A" width="500">
+                </figure>
+                <div class="article-content">
+                    <a href="" class="card-category">EARLY ACCESS</a>
+                    <h1 class="card-title">Boeing C-17A</h1>
+                    <p class="card-excerpt">Used with diverse equipment and is the backbone of humanitarian misisons.</p>
+                    <div class="buttons"> 
+                        <a href="pages/C17/C17.html">Explore</a>
+                    </div>
+                </div>
+                
+            </article>
         </div>
 
 
-        <div class="article-container">
-            <article class="article-card">
-                <figure class="article-image">
-                    <img src="../../images/E170.png" alt="C17A">
-                </figure>
-                <div class="article-content">
-                    <a href="" class="card-category">Latest Version</a>
-                    <h2 class="card-title">Boeing C-17A</h2>
-                    <div class="buttons">
-                        <a href="https://flightsim.to/file/12408/msfs-native-c-17-globemaster">Download</a>
-                    </div>
-                </div>
-
-            </article>
-
-            <article class="article-card">
-                <figure class="article-image">
-                    <img src="../../images/wip.png" alt="UH60M">
-                </figure>
-                <div class="article-content">
-                    <a href="" class="card-category">Latest version</a>
-                    <h2 class="card-title">Boeing UH-60M</h2>
-                    <div class="buttons">
-                        <a href="https://flightsim.to/file/21192/native-h-60-project-wip">Download</a>
-                    </div>
-                </div>
-            </article>
-
-        </div>
 
 
         <div class="social-container">
@@ -71,7 +91,7 @@
             </div>
             <a href="https://www.youtube.com/c/OuroborosJets" class="external"><img src="../../images/Youtube_PNG.png"
                     alt="youtube"></a>
-            <a href="https://discord.gg/GhkQ9wrrbp" class="external"><img src="../../images/Discord_PNG.png"
+            <a href="https://discord.gg/T99hTme8PS" class="external"><img src="../../images/Discord_PNG.png"
                     alt="discord"></a>
         </div>
         <div class="footer">
@@ -80,6 +100,7 @@
             <p>Made by Destroyer121 with assets from LincolnCFCruz</p>
         </div>
     </div>
+</div>
 
     <script>
         const menuList = document.getElementById("menuList");
