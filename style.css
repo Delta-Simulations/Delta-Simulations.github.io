@@ -8,16 +8,16 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: hsl(267 74% 16% / 1);
+    background: rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: hsl(267 100% 20% / 1);
+    background: rgb(180, 124, 28);
     border-radius: 7px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(267 100% 10% / 1);
+    background: rgb(255, 176, 41);
     border-radius: 7px;
 }
 
@@ -37,7 +37,7 @@ html {
 .container{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Cartoonish_background.png);
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url(images/Cartoonish_background.png);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -126,6 +126,7 @@ nav ul li a:hover{
     font-size: 20px;
     text-shadow: 1px 1px 1px black, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
     cursor: pointer;
+    margin: 7px;
 }
 
 .buttons a:hover {
@@ -164,9 +165,12 @@ nav ul li a:hover{
 }
 
 .article-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
+    display: flex;
+    grid-template-columns: repeat(auto-fill,minmax(210px,1fr));
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .article-image{
@@ -186,11 +190,11 @@ nav ul li a:hover{
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
+    max-width: 500px;
 }
 
 .article-card:hover {
     box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
-    cursor: pointer;
 }
 
 .article-content{
@@ -219,6 +223,7 @@ nav ul li a:hover{
     margin: 50;
 }
 
+
 /* FAQ */
 
 .title-2{
@@ -236,9 +241,8 @@ nav ul li a:hover{
 
 .article-container-2 {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(285px,1fr));
     gap: 2rem;
-    
 }
 
 .article-card-2{
@@ -276,13 +280,13 @@ nav ul li a:hover{
     font-size: 1.2rem;
     line-height: 1.7rem;
     color: #000000;
-    margin: 50;
 }
+
 
 /* After FAQ */
 
 .after-FAQ{
-    display: grid;
+    display: row;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -413,7 +417,7 @@ nav ul li a:hover{
         font-size: 15px;
     }
     .buttons a{
-        margin-bottom: 10px;
+        margin-top: 900px;
     }
 
     .title-1 {
