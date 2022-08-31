@@ -77,7 +77,9 @@ html {
 
 nav{
     flex: 1;
-    text-align: right;
+    text-align: end;
+    margin-top: -30px;
+
 }
 
 nav ul li{
@@ -175,12 +177,10 @@ nav ul li a:hover{
 }
 
 .article-container {
-    display: flex;
-    grid-template-columns: repeat(auto-fill,minmax(210px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .article-image{
@@ -200,12 +200,12 @@ nav ul li a:hover{
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
-    max-width: 500px;
 }
 
-.article-card:hover {
+/* .article-card:hover {
     box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
-}
+}  */
+
 
 .article-content{
     padding: 2rem;
