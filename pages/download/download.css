@@ -1,43 +1,54 @@
 
-.article-container {
-    grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-
-}
-.article-card{
-    background: rgba(187, 125, 0, 0.95);
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
-    border-radius: 7px;
-    transition: 0.3s;
-    max-width: 1700px;
-    align-items: center;
-}
-
-
-.article-content{
-    padding: 2rem;
-    align-items: center;
-}
-.article-image{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    justify-content: center;
-}
-
-.article-image img {
-    max-width: 100%;
-    width: 800px;
-    border-radius: 7px 7px 0 0;
-    align-items: center;
-}
 .parallaximage {
     background-image: url("../../images/Cartoonish_background.png");
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
+
+.article-container {
+    grid-template-columns: repeat(1,minmax(285px,1fr));
+    justify-self: center;
+    justify-content: center;
+}
+
+.article-card{
+  background: rgba(187, 125, 0, 0.95);
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
+  border-radius: 7px;
+  transition: 0.3s;
+  margin: 5%;   
+  max-width: 100%;
+  min-width: 40%;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.article-content{
+  padding: 2rem;
+  align-content: center;
+  justify-content: center;
+  justify-items: auto;
+  align-self: center;
+  align-items: auto;
+  justify-self: center;
+}
+
+.buttons b {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  border:solid 3px rgb(255, 170, 0);
+  color: white;
+  padding: 10px 0;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 7px;
+}
+
+.buttons b:hover {
+  color:rgb(255, 255, 255);
+  box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
+  transition: 0.2s;
+}

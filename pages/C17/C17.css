@@ -1,9 +1,48 @@
 .parallaximage {
     background-image: url("../../images/C-17Page.png");
     width: 100%; 
-  
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+
+}
+.article-container {
+  justify-content: center;
+  grid-template-columns: repeat(2,minmax(285px,1fr));
+  display: grid;
+  align-content: center;
+}
+
+.article-image{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height:100%;
+}
+
+.article-image img {
+  height:100%;
+  border-radius: 7px;
+}
+
+.article-docs{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height:300px;
+  width: auto;
+}
+
+
+@media screen and (max-width: 850px){
+
+  .article-container {
+    /* margin: 5%; */
+    justify-content: center;
+    grid-template-columns: repeat(1,minmax(285px,1fr));
+
+    display: grid;
+    align-content: center;
+}
+}
