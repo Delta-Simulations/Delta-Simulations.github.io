@@ -1,0 +1,9 @@
+.parallaximage {
+    background-image: url("../../images/blackhawkwallpaper.png");
+    width: 100%; 
+  
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
