@@ -1,3 +1,5 @@
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -37,7 +39,7 @@ html {
 .container{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9));
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9));
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -48,7 +50,7 @@ html {
 
 
 .parallaximage {  
-    background: url("../../images/C17Landing.png");
+    background-image: url("../../images/C17Landing.png");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -67,14 +69,12 @@ html {
 .logo{
     width: 70px;
     cursor: pointer;
-    min-width: 20%;
+    margin: 30px 0;
 }
-
 .menu-icon{
-    min-width: 14%;
+    width: 25px;
     cursor: pointer;
     display: none;
-    max-width: 20%;
 }
 
 nav{
@@ -163,18 +163,13 @@ nav ul li a:hover{
     margin: auto;
 }
 
-.title-space{
-    height: 200px;
-    
-    width: 100%;
-}
 /* Part 1 */
 
 .title-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 11%;
+    margin-top: 150px;
     margin-bottom: 10px;
 }
 
@@ -183,7 +178,13 @@ nav ul li a:hover{
     font-size: 50px;
 }
 
-a
+.article-container {
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 .article-image{
     margin: 0;
     padding: 0;
@@ -201,14 +202,11 @@ a
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
-    margin: 5%;   
-    max-width: 100%;
-    min-width: 40%;
+}
 
-}
-.article-card:hover {
+/* .article-card:hover {
     box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
-}
+}  */
 
 
 .article-content{
@@ -223,15 +221,6 @@ a
     color: #000000;
     display: block;
     text-decoration: none;
-}
-
-.article-container {
-    /* margin: 5%; */
-    justify-content: center;
-    grid-template-columns: repeat(2,minmax(285px,1fr));
-
-    display: grid;
-    align-content: center;
 }
 
 .article-content .card-title {
@@ -277,6 +266,7 @@ a
 
 .article-card-2:hover {
     box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
+    cursor: pointer;
 }
 
 .article-content-2{
@@ -344,7 +334,8 @@ a
     display: inline-block;
     place-content: center;
     text-align: center;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .social-container img {
@@ -362,31 +353,21 @@ a
 }
 
 @media screen and (max-width: 850px){
-
-    .parallaximage {  
-        background-image: url("../../images/C17Landing.png");
-        height: 100%; 
-        background-attachment: fixed;
-        background-position: 20%;
-        background-repeat: no-repeat;
+    .container{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Cartoonish_MOBILE.png);
+        background-position: center;
         background-size: cover;
-        backdrop-filter: brightness(3);
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
     }
-    .article-container {
-        /* margin: 5%; */
-        justify-content: center;
-        grid-template-columns: repeat(1,minmax(285px,1fr));
-    
-        display: grid;
-        align-content: center;
-    }
-    
+
     nav ul {
         width: 100%;
-        background: rgba(255, 170, 0, 0.9);
-        border-bottom-left-radius: 7px;
-        border-bottom-right-radius: 7px;
-
+        background: hsl(267 100% 15% / 0.93);
         position: absolute;
         top: 75px;
         right: 0;
@@ -424,7 +405,7 @@ a
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column-reverse;
-        margin: 10% 0;
+        margin: 50px 0;
         align-items: center;
     }
 
@@ -447,10 +428,12 @@ a
     .col-1 p{
         font-size: 15px;
     }
+    .buttons a{
+        margin-top: 900px;
+    }
 
     .title-1 {
         justify-content: center;
-
     }
 
     .title-1 h2{
