@@ -69,6 +69,7 @@ html {
     cursor: pointer;
     margin: 30px 0;
 }
+
 .menu-icon{
     width: 25px;
     cursor: pointer;
@@ -93,12 +94,25 @@ nav ul li a{
     color: #fff;
     font-size: 25px;
     padding: 16px; 
-}
-nav ul li a:hover{
-    color:rgba(248, 154, 13, 0.939);
-    transition: 0.2s;
+    border-radius: 30px;
+    position: relative;
 }
 
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(248, 154, 13, 0.939);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.3s;
+    color: rgba(248, 154, 13, 0.939);
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
 .row {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -134,13 +148,12 @@ nav ul li a:hover{
     text-align: center;
     width: 200px;
     border:solid 3px rgb(2, 179, 255);
-    color: black;
+    color: #fff;
     padding: 10px 0;
     border-radius: 30px;
     background: rgb(2, 179, 255);
     font-size: 20px;
     cursor: pointer;
-    margin: 7px;
 }
 
 .buttons a:hover {
@@ -220,20 +233,20 @@ nav ul li a:hover{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #000000;
+    color: #fff;
     display: block;
     text-decoration: none;
 }
 
 .article-content .card-title {
     margin: 1rem 0;
-    color: #fff;
+    color: rgb(229, 166, 48);
 }
 
 .article-content .card-excerpt {
     font-size: 1.2rem;
     line-height: 1.7rem;
-    color: #000000;
+    color: #ffffff;
     margin: 50;
 }
 
@@ -257,6 +270,8 @@ nav ul li a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(285px,1fr));
     gap: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .article-card-2{
@@ -264,10 +279,10 @@ nav ul li a:hover{
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
+   
 }
 
 .article-card-2:hover {
-    box-shadow: 0 4px 20px 0 rgba(2, 179, 255, 0.44);
     cursor: pointer;
 }
 
@@ -280,20 +295,20 @@ nav ul li a:hover{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #000000;
+    color: #fff;
     display: block;
     text-decoration: none;
 }
 
 .article-content-2 .card-title {
     margin: 1rem 0;
-    color: #fff;
+    color: rgba(248, 154, 13, 0.939);
 }
 
 .article-content-2 .card-excerpt {
     font-size: 1.2rem;
     line-height: 1.7rem;
-    color: #000000;
+    color: #fff;
 }
 
 
