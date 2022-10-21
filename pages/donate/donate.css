@@ -37,14 +37,19 @@ html {
 .container{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(2, 15, 81, 0.81),rgba(2, 15, 81, 0.9)), url("../../images/C17Landing.png");
+    background-image: linear-gradient(rgba(2, 15, 81, 0.81),rgba(2, 15, 81, 0.9)), url(../../images/C17Landing.png);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
     overflow: hidden;
-    filter:opacity(100)
+    filter:opacity(100);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
@@ -229,7 +234,7 @@ nav ul li a:hover:after{
 
 .article-content .card-title {
     margin: 1rem 0;
-    color: rgba(248, 154, 13, 0.939);
+    color: #fff
 }
 
 .article-content .card-excerpt {
@@ -237,6 +242,7 @@ nav ul li a:hover:after{
     line-height: 1.7rem;
     color: #fff;
     margin: 50;
+    font-weight: 300;
 }
 
 
