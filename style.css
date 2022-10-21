@@ -62,6 +62,7 @@ html {
     height: 100px;
     display:flex;
     align-items: center;
+   
 }
 
 .logo{
@@ -80,7 +81,6 @@ nav{
     flex: 1;
     text-align: end;
     margin-top: -30px;
-
 }
 
 nav ul li{
@@ -156,6 +156,10 @@ nav ul li a:hover:after{
     cursor: pointer;
 }
 
+#faq-butt {
+    margin-left: 20px;
+}
+
 .buttons a:hover {
     color:rgb(255, 255, 255);
     background: rgba(248, 154, 13, 0.939);
@@ -185,7 +189,8 @@ nav ul li a:hover:after{
     justify-content: center;
     align-items: center;
     margin-top: 280px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .title-1 h2{
@@ -240,7 +245,8 @@ nav ul li a:hover:after{
 
 .article-content .card-title {
     margin: 1rem 0;
-    color: rgb(229, 166, 48);
+    color: #ffae00
+    
 }
 
 .article-content .card-excerpt {
@@ -259,6 +265,7 @@ nav ul li a:hover:after{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .title-2 h2{
@@ -270,8 +277,8 @@ nav ul li a:hover:after{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(285px,1fr));
     gap: 2rem;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .article-card-2{
@@ -302,13 +309,14 @@ nav ul li a:hover:after{
 
 .article-content-2 .card-title {
     margin: 1rem 0;
-    color: rgba(248, 154, 13, 0.939);
+    color: #fff
 }
 
 .article-content-2 .card-excerpt {
     font-size: 1.2rem;
     line-height: 1.7rem;
     color: #fff;
+    font-weight: 300;
 }
 
 
