@@ -34,23 +34,6 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(2, 15, 81, 0.81),rgba(2, 15, 81, 0.9)), url(../../images/C17Landing.png);
-    background-position: center;
-    background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-    filter:opacity(100);
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .navbar {
     width: 100%;
