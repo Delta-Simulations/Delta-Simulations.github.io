@@ -29,11 +29,11 @@
     text-decoration: none;
     text-align: center;
     width: 200px;
-    border:solid 3px rgb(2, 179, 255);
+    border:solid 3px rgb(248, 154, 13);
     color: white;
     padding: 10px 0;
     border-radius: 30px;
-    background: rgb(2, 179, 255);
+    background: rgb(248, 154, 13);
     font-size: 20px;
     cursor: pointer;
     margin: 7px;
@@ -55,14 +55,6 @@
     justify-content: center;
     align-items: center;
 
-}
-.article-card{
-    background: rgba(2, 179, 255, 0.44);
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
-    border-radius: 7px;
-    transition: 0.3s;
-    max-width: 1700px;
-    align-items: center;
 }
 
 
