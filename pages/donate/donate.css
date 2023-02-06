@@ -34,18 +34,6 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(2, 15, 81, 0.81),rgba(2, 15, 81, 0.9)), url("../../images/C17Landing.png");
-    background-position: center;
-    background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-    filter:opacity(100)
-}
 
 .navbar {
     width: 100%;
@@ -80,15 +68,27 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #fff; 
     font-size: 25px;
     padding: 16px; 
-}
-nav ul li a:hover{
-    color:rgba(248, 154, 13, 0.939);
-    transition: 0.2s;
+    border-radius: 30px;
+    position: relative;
 }
 
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(248, 154, 13, 0.939);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover:after{
+    width: 100%;    
+}
 .row {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -124,7 +124,7 @@ nav ul li a:hover{
     text-align: center;
     width: 200px;
     border:solid 3px rgba(2, 179, 255);
-    color: black;
+    color: #fff;
     padding: 10px 0;
     border-radius: 30px;
     background: rgba(2, 179, 255);
@@ -210,21 +210,22 @@ nav ul li a:hover{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #000000;
+    color: #fff;
     display: block;
     text-decoration: none;
 }
 
 .article-content .card-title {
     margin: 1rem 0;
-    color: #fff;
+    color: #fff
 }
 
 .article-content .card-excerpt {
     font-size: 1.2rem;
     line-height: 1.7rem;
-    color: #000000;
+    color: #fff;
     margin: 50;
+    font-weight: 300;
 }
 
 

@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0.5em;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(267 74% 16% / 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(267 100% 20% / 1);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(267 100% 10% / 1);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-corner{
+    border-radius: 7px;
+    background: lightgrey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../images/Cartoonish_background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color:cornflowerblue;
+    transition: 0.2s;
+}
+
+.row {
+    display: block;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.col-1{
+    width: 50%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.col-1 h1{
+    color: #fff;
+    font-size: 90px;
+}
+.col-1 i{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 120;
+    line-height: 25px;
+}
+
+/* Social */
+
+.social-container {
+    width: 100%;
+    display: inline-block;
+    place-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.social-container img {
+    width: 100px;
+    margin: 20px;
+}
+
+/* footer */
+
+.footer {
+    display: block;
+    z-index: 500;
+    margin: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px){
+    html {
+        scroll-behavior: smooth;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../images/Cartoonish_MOBILE.png);
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: auto;
+    }
+
+    nav ul {
+        width: 100%;
+        background: hsl(267 100% 15% / 0.93);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        margin-top: 12px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: auto;
+    }
+
+    nav ul li a{
+        color: #fff;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .menu-icon{
+        width: 40px;
+        display: block;
+    }
+
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .col-1{
+        width: 100%;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .col-1 h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .col-1 i{
+        font-size: 15px;
+    }
+
+    .social-container{
+        display: inline-block;
+    }
+
+    .social-container img{
+        width: 3em;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+}
