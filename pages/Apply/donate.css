@@ -1,5 +1,3 @@
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -14,7 +12,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(248, 154, 13, 0.713);
+    background: rgba(2, 179, 255, 0.713);
     border-radius: 7px;
 }
 
@@ -36,35 +34,12 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.222),rgba(0, 0, 0, 0.814));
-    background-position: center;
-    background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-}
 
-
-.parallaximage {  
-    background-image: url("../../images/C17Landing.png");
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: brightness(3);
-}
-  
 .navbar {
     width: 100%;
     height: 100px;
     display:flex;
     align-items: center;
-   
 }
 
 .logo{
@@ -72,7 +47,6 @@ html {
     cursor: pointer;
     margin: 30px 0;
 }
-
 .menu-icon{
     width: 25px;
     cursor: pointer;
@@ -83,6 +57,7 @@ nav{
     flex: 1;
     text-align: end;
     margin-top: -30px;
+
 }
 
 nav ul li{
@@ -93,7 +68,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #fff; 
     font-size: 25px;
     padding: 16px; 
     border-radius: 30px;
@@ -109,11 +84,10 @@ nav ul li a:after{
     left: 0;
     bottom: 5px;
     transition: 0.3s;
-    color: rgba(248, 154, 13, 0.939);
 }
 
 nav ul li a:hover:after{
-    width: 100%;
+    width: 100%;    
 }
 .row {
     display: flex;
@@ -133,6 +107,7 @@ nav ul li a:hover:after{
 .col-1 h1{
     color: #fff;
     font-size: 90px;
+    text-align: center;
 }
 .col-1 p{
     color: #fff;
@@ -142,32 +117,27 @@ nav ul li a:hover:after{
     margin-bottom: 30px;
 }
 
-
 .buttons a {
     -webkit-appearance: button;
     -moz-appearance: button;
-    appearance: button;
     text-decoration: none;
     text-align: center;
     width: 200px;
-    border:solid 3px rgb(248, 154, 13);
+    border:solid 3px rgba(2, 179, 255);
     color: #fff;
     padding: 10px 0;
     border-radius: 30px;
-    background: rgb(248, 154, 13);
+    background: rgba(2, 179, 255);
     font-size: 20px;
     cursor: pointer;
-}
-
-#faq-butt {
-    margin-left: 20px;
+    margin: 7px;
 }
 
 .buttons a:hover {
     color:rgb(255, 255, 255);
-    background: rgba(248, 154, 13, 0.939);
     box-shadow: 0 4px 20px 0 rgba(248, 154, 13, 0.939);
-    border:solid 3px rgba(248, 154, 13, 0.939);
+    background: rgba(248, 154, 13, 0.939);
+    border: solid 3px rgba(248, 154, 13, 0.939);
     transition: 0.2s;
 }
 
@@ -191,9 +161,8 @@ nav ul li a:hover:after{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 280px;
-    margin-bottom: 15px;
-    padding-bottom: 30px;
+    margin-top: 150px;
+    margin-bottom: 10px;
 }
 
 .title-1 h2{
@@ -221,8 +190,8 @@ nav ul li a:hover:after{
 }
 
 .article-card{
-    background:  rgba(248, 154, 13, 0.729);
-    box-shadow: 0 4px 20px 0 rgba(248, 154, 13, 0.1);
+    background: rgba(2, 179, 255, 0.44);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
 }
@@ -248,15 +217,15 @@ nav ul li a:hover:after{
 
 .article-content .card-title {
     margin: 1rem 0;
-    color: #ffae00
-    
+    color: #fff
 }
 
 .article-content .card-excerpt {
     font-size: 1.2rem;
     line-height: 1.7rem;
-    color: #ffffff;
+    color: #fff;
     margin: 50;
+    font-weight: 300;
 }
 
 
@@ -268,7 +237,6 @@ nav ul li a:hover:after{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 10px;
-    padding-bottom: 30px;
 }
 
 .title-2 h2{
@@ -280,19 +248,17 @@ nav ul li a:hover:after{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(285px,1fr));
     gap: 2rem;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .article-card-2{
-    background:  rgba(248, 154, 13, 0.729);
+    background: rgba(187, 125, 0, 0.95);
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
     transition: 0.3s;
-   
 }
 
 .article-card-2:hover {
+    box-shadow: 0 4px 20px 0 rgba(255, 170, 0,1);
     cursor: pointer;
 }
 
@@ -305,21 +271,20 @@ nav ul li a:hover:after{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    color: #fff;
+    color: #000000;
     display: block;
     text-decoration: none;
 }
 
 .article-content-2 .card-title {
     margin: 1rem 0;
-    color: #fff
+    color: #fff;
 }
 
 .article-content-2 .card-excerpt {
     font-size: 1.2rem;
     line-height: 1.7rem;
-    color: #fff;
-    font-weight: 300;
+    color: #000000;
 }
 
 
@@ -395,7 +360,7 @@ nav ul li a:hover:after{
 
     nav ul {
         width: 100%;
-        background: rgba(63, 63, 63, 0.93);
+        background: hsl(267 100% 15% / 0.93);
         position: absolute;
         top: 75px;
         right: 0;
@@ -427,10 +392,6 @@ nav ul li a:hover:after{
         transition: 0.5s;
         text-align: center;
     }
-    .socialsimg {
-        width: 1%;
-    }
-    
 
     .row{
         display:flex;
@@ -456,7 +417,6 @@ nav ul li a:hover:after{
     }
     .col-1 h1{
         font-size: 35px;
-        margin-left: auto;
     }
     .col-1 p{
         font-size: 15px;
