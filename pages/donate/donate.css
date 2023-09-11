@@ -92,7 +92,7 @@ nav ul li a:hover:after{
 .row {
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     align-items: center;
     margin-top: 70px;
@@ -120,6 +120,7 @@ nav ul li a:hover:after{
 .buttons a {
     -webkit-appearance: button;
     -moz-appearance: button;
+    appearance: button;
     text-decoration: none;
     text-align: center;
     width: 200px;
@@ -174,7 +175,7 @@ nav ul li a:hover:after{
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .article-image{
@@ -346,17 +347,6 @@ nav ul li a:hover:after{
 }
 
 @media screen and (max-width: 850px){
-    .container{
-        width: 100%;
-        height: 100%;
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Cartoonish_MOBILE.png);
-        background-position: center;
-        background-size: cover;
-        padding-left: 8%;
-        padding-right: 8%;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
 
     nav ul {
         width: 100%;
