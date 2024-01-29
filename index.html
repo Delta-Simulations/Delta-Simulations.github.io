@@ -1,162 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Delta Simulations</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="images/logo.png">
-</head>
-
-<body>
-    <div class="parallaximage">
-    <div class="container">
-    
-        <div class="navbar">
-            <a href="/">
-                <img src="images/logo.png" alt="logo-icon" class="logo">
-            </a>
-            <nav>
-                <ul id="menuList">
-                    <li><a href="pages/donate/">Donate</a></li>
-                    <li><a href="pages/Apply/">Join Us</a></li>
-                </ul>
-            </nav>
-            <img src="images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
-        </div>
-    
-        <div class="row">
-            <div class="col-1">
-                <h1>Delta Simulations</h1>
-                <p>A group dedicated to creating high-fidelity addons for Microsoft Flight Simulator. </p>
-                <div class="buttons">
-                    <a href="#Aircraft">Aircraft</a>
-                    <a id="faq-butt" href="#faq">FAQ</a>
-                </div>
-            </div>
-            <div class="col-2">
-            </div>
-        
-        </div>
-        <div class="title-1">
-        </div>
-        <div class="title-1">
-            <h2 id="Aircraft"><br>Aircraft</h2>
-        </div>
-
-        <div class="article-container">
-            
-            <article class="article-card">
-                
-                <figure class="article-image">
-                    <a href="https://github.com/Delta-Simulations/MSFS-C-17/releases/latest" target="_blank" class="external"><img src="images/LineartC17.png" alt="UH60M"></a>
-                </figure>
-                <div class="article-content">
-                    <a href="" class="card-category">EARLY ACCESS</a>
-                    <h1 class="card-title">Boeing C-17A</h1>
-                    <p class="card-excerpt">Beta Release</p>
-                </div>
-            
-            </article>
-
-            <article class="article-card">
-                
-                <figure class="article-image">
-                    <a href="https://github.com/Delta-Simulations" target="_blank" class="external"><img src="images/LineartH60.png" alt="UH60M"></a>
-                </figure>
-                <div class="article-content">
-                    <a href="" class="card-category">EARLY ACCESS</a>
-                    <h1 class="card-title">Boeing UH-60M</h1>
-                    <p class="card-excerpt">Beta Release</p>
-                </div>
-            
-            </article>
-
-        </div>
-
-        <div class="title-2">
-            <h2 id="faq"><br>Frequently Asked Questions</h2>
-        </div>
-
-        <div class="article-container-2">
-            <article class="article-card-2">
-                <div class="article-content-2">
-                    <h3 class="card-title">What type of airplanes will you be making?</h3>
-                    <p class="card-excerpt">
-                        We like to focus on modern aircraft, with a focus on military aviation. One of the largest
-                        deciding factors on if we can work on an aircraft is the amount of reference material we can obtain.
-                        Check out Discord for more information on current and future projects, or if you have a potential project for us.
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="article-card-2">
-                <div class="article-content-2">
-                    <h3 class="card-title">What type of realism can we expect?</h3>
-                    <p class="card-excerpt">Although we don't like to call sim aircraft "study level", we aim to create our aircraft to the best of our abilities and knoledge. 
-                        Much like other freeware organizations, we aim to continually improve our products over time.
-                        If you are interested in working with us, please contact any of our administration on our Discord server or via email.
-
-                    </p>
-                </div>
-            </article>
-
-
-            <article class="article-card-2">
-                <div class="article-content-2">
-                    <h3 class="card-title">When will the next update be?</h3>
-                    <p class="card-excerpt">There are NO release dates or timelines for freeware projects. 
-                        These projects take a sideline to our real lives, and are heavily dependent on how much time we are capable of investing into this project.
-                        When we are ready for the next update, we will post it on our Discord server.
-
-                    </p>
-                </div>
-            </article>
-
-        </div>
-
-        <div class="after-FAQ">
-            <div class="after-title">
-                <h2>Still have questions?</h2>
-            </div>
-            <div class="after-content">
-                <p class="after-excerpt">Join our Discord server to join a growing community!</p>
-            </div>
-            <div class="social-container">
-                <a href="https://www.youtube.com/@DeltaSimulations" target="_blank" class="external"><img src="images/Youtube_PNG.png"
-                        alt="youtube"></a>
-                <a href="https://discord.gg/T99hTme8PS" target="_blank" class="external"><img src="images/Discord_PNG.png"
-                        alt="discord"></a>
-                <a href="https://github.com/Delta-Simulations" target="_blank" class="external"><img src="images/GitHub_PNG.png"
-                        alt="github"></a>
-            </div>
-        </div>
-
-
-
-        <div class="footer">
-            <p>© Copyright. All rights reserved.</p>
-            <br>
-            <p>Made by Delta Simulations</p>
-        </div>
-    </div>
-    <div id="filter"></div>
-</div>
 
     <script>
-        const menuList = document.getElementById("menuList");
-        menuList.style.maxHeight = "0px";
-
-        function togglemenu() {
-            if (menuList.style.maxHeight === "0px") {
-                menuList.style.maxHeight = "10%"
-            } else {
-                menuList.style.maxHeight = "0px"
-            }
-        }
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
     </script>
-</body>
 
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/icons/LOGO_Blank.png" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+                    <ul>
+                        <li class="current" ><a href = "mailto:Inquiries@DeltaSimulations.ca" class="smoothscroll">Connect with Us</a></li>
+                        <li class="current"><a href="https://paypal.me/DeltaSimulations" class="external">Donate</a></li>
+                        <li class="current"><a href="https://forms.gle/pkCpLtgKz754ETbZA" class="external">Join the Team</a></li>
+
+                    </ul>
+                </nav>
+
+                <div class="s-header__cta">
+                    <a href="#download" class="btn btn--stroke s-header__cta-btn smoothscroll">Download our Aircraft</a>
+ 
+                </div>
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- # site-content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+
+            <!-- intro
+            ----------------------------------------------- -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="s-intro__bg">
+                    
+                </div>
+
+                <div class="row s-intro__content">
+
+                    <div class="column lg-12 s-intro__content-inner">
+                        <div class="s-intro__content-left">
+                            <h1 class="s-intro__content-title">
+                            Delta Simualtions <br>
+                            </h1>
+                        </div>
+                        <div class="s-intro__content-right">
+                            <p class="s-intro__content-desc body-text-2">
+                                We are an open-source development community dedicated to creating high-fidelity aircraft for flight simulation.
+                            </p> 
+
+                            <div class="s-intro__content-buttons">
+                                <a href="https://discord.gg/T99hTme8PS" class="btn btn--primary s-intro__content-btn smoothscroll">Join our Discord</a>
+                               </div>
+                        </div>
+                    </div> <!-- s-intro__content-inner -->
+
+                </div> <!-- s-intro__content -->
+
+            </section> <!-- end s-intro -->
+
+
+
+
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 </html>
