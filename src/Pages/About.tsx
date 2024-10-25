@@ -10,7 +10,6 @@ export const About = () => {
         downloads={<NumberStats totalDownloads={400} subtext="K+" animationDuration={20} />}
         yearsOfDevelopment={<NumberStats totalDownloads={3} subtext="+" animationDuration={20} />}
         contributors={<NumberStats totalDownloads={25} subtext="+" animationDuration={20} />}
-        hours={<NumberStats totalDownloads={2000} subtext="+" animationDuration={20} />}
 
       />
       <div className=" w-5/6 flex flex-col gap-6">

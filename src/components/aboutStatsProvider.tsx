@@ -4,7 +4,6 @@ type T_AboutStatsProviderProps = {
   downloads: JSX.Element
   yearsOfDevelopment: JSX.Element
   contributors: JSX.Element
-  hours: JSX.Element
 }
 
 export const AboutStatsProvider: FC<T_AboutStatsProviderProps> = (props: T_AboutStatsProviderProps): JSX.Element => {
@@ -40,10 +39,6 @@ export const AboutStatsProvider: FC<T_AboutStatsProviderProps> = (props: T_About
         <div className="flex flex-col items-center w-1/6">
           {props.contributors}
           <div className="text-center text-slate-300">Contributors</div>
-        </div>
-        <div className="flex flex-col items-center w-1/6">
-          {props.hours}
-          <div className="text-center text-slate-300">Hours of Development</div>
         </div>
       </div>
     </div>

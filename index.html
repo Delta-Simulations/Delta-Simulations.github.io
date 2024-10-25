@@ -2,19 +2,27 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/delta.png" />
+		<link rel="icon" type="image/svg+xml" href="public/delta.png" />
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Delta Simulations</title>
-		
+		<script type="module" src="http://localhost:5173/@vite/client"></script>
+		<script type="module">
+			import RefreshRuntime from 'http://localhost:5173/@react-refresh'
+			RefreshRuntime.injectIntoGlobalHook(window)
+			window.$RefreshReg$ = () => {}
+			window.$RefreshSig$ = () => (type) => type
+			window.__vite_plugin_react_preamble_installed__ = true
+		  </script>
+
 		<meta property="og:title"           content="Delta Simulations" />
-		<meta property="og:description"     content="A group dedicated to creating high-fidelity flight simulation projects." />
+		<meta property="og:description"     content="A group dedicated to creating high-fidelity flight simulation products." />
 		<meta property="og:url"                content="https://www.deltasimulations.ca/" />
-		<meta property="og:image"              content="https://www.deltasimulations.ca/public/delta.png" />
+		<meta property="og:image"              content="https://www.deltasimulations.ca/assets/delta-CpCwpqCc.png" />
 
 	</head>
 	<body>
 		<div id="root"></div>
-		<script type="module" src="/src/main.tsx"></script>
+		<script type="module" src="src/main.tsx"></script>
 	</body>
 </html>
