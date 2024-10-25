@@ -1,3 +1,3 @@
 # Delta Simulations site
 
-## Website made by LincolnCFCruz and Vitor_MD11
+## Website made by Destroyer121 and Taco
