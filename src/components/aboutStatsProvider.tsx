@@ -9,7 +9,7 @@ type T_AboutStatsProviderProps = {
 
 export const AboutStatsProvider: FC<T_AboutStatsProviderProps> = (props: T_AboutStatsProviderProps): JSX.Element => {
   const [pageWidth, setPageWidth] = useState(window.innerWidth)
-  const [pageHeight, setPageHeight] = useState(window.innerHeight)
+  const [, setPageHeight] = useState(window.innerHeight)
 
   useEffect(() => {
     const handleResize = () => {
