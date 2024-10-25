@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('bahnschrift.ttf') format('tff'),
+       url('Bahnschrift.woff') format('woff');
+}
+
+body {
+  font-family: 'Bahnschrift', sans-serif; /* Fallback font */
+  width: 100vw;
+}
+
+#root {
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba($color: black, $alpha: 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #302502;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
