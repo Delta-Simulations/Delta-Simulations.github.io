@@ -10,11 +10,11 @@ import { NavButton } from './components/NavButton'
 import { About } from './Pages/About'
 import { Contact } from './Pages/Contact'
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 const Main = () => {
   const logo = <img src="/LOGO_Blank.png" className="w-20 logo-image" alt="logo" />
 
-  const NavButtons = [<ExtButton text="Donate" to="https://www.paypal.com/donate/?hosted_button_id=UJLMCHJUPRTAE" />, <NavButton text="About" to="/about" />, <NavButton text="Contact" to="/contact" />]
+  const NavButtons = [<ExtButton text="Donate" to="https://www.paypal.com/donate/?hosted_button_id=UJLMCHJUPRTAE" />, <NavButton text="About Us" to="/about" />, <NavButton text="Contact" to="/contact" />]
 
   const [scroll, setScroll] = useState<number>(0)
 

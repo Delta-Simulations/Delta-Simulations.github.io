@@ -39,7 +39,7 @@ export const ButtonBar: FC<T_ButtonBarProps> = ({ buttons, logo, className, fill
         >
           {logo}
         </div>
-        <div className="flex items-center ">{buttons}</div>
+        <div className="flex items-center w-1/5">{buttons}</div>
       </div>
     </div>
   )

@@ -35,7 +35,7 @@ export const Home = () => {
       >
         <div className="text-6xl font-bold text-white text-left">Delta Simulations</div>
         <div className="flex flex-col gap-4 justify-center items-center">
-          <div className="w-1/2 text-white text-right">
+          <div className="w-1/2 text-white text-center">
             We are an open-source development community dedicated to creating high-fidelity aircraft for flight
             simulation.
           </div>

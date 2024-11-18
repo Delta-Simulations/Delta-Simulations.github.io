@@ -39,6 +39,8 @@ const BackgroundVideo: FC<T_BackgroundVideoProps> = (props: T_BackgroundVideoPro
   return (
     <div className="relative w-screen h-full overflow-hidden">
       <video
+        controlsList="nodownload"
+        disablePictureInPicture
         ref={videoRef}
         autoPlay
         loop
