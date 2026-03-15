@@ -1,0 +1,6 @@
+site_name: "Delta Simulation Documentation"
+site_url: "https://www.deltasimulations.ca"  # <-- root domain
+site_dir: "dist/docs"                        # <-- output into your Vite dist folder
+theme:
+  name: material
+use_directory_urls: true
