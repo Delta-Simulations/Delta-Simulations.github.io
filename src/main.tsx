@@ -14,7 +14,7 @@ import { Contact } from './Pages/Contact'
 const Main = () => {
   const logo = <img src="/LOGO_Blank.png" className="w-20 logo-image" alt="logo" />
 
-  const NavButtons = [<ExtButton text="Donate" to="https://www.paypal.com/donate/?hosted_button_id=UJLMCHJUPRTAE" />, <NavButton text="About Us" to="/about" />, <NavButton text="Contact" to="/contact" />]
+  const NavButtons = [<ExtButton text="Donate" to="https://www.paypal.com/donate/?hosted_button_id=UJLMCHJUPRTAE" />, <NavButton text="About Us" to="/about" />, <NavButton text="Contact" to="/contact" />, <NavButton text="Docs" to="https://docs.deltasimulations.ca/" />]
 
   const [scroll, setScroll] = useState<number>(0)
 
