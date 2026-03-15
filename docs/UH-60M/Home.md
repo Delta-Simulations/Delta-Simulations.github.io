@@ -1,29 +1,8 @@
-# UH-60M Blackhawk User Documentation
+# Getting Started
 
 Welcome to the **UH-60M Blackhawk** documentation for Delta Simulations. This guide will help you understand the aircraft systems, flight controls, and operational procedures.
 
 ---
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Aircraft Overview](#aircraft-overview)
-- [Cockpit Controls](#cockpit-controls)
-- [Systems](#systems)
-  - [Engines](#engines)
-  - [Avionics](#avionics)
-  - [Fuel System](#fuel-system)
-- [Flight Procedures](#flight-procedures)
-  - [Startup](#startup)
-  - [Takeoff](#takeoff)
-  - [Cruise](#cruise)
-  - [Landing](#landing)
-  - [Shutdown](#shutdown)
-- [Tips and Notes](#tips-and-notes)
-- [References](#references)
-
----
-
 ## Introduction
 
 The **UH-60M Blackhawk** is a medium-lift utility helicopter used for transport, medical evacuation, and special operations. This guide is intended for virtual simulation purposes using Microsoft Flight Simulator and Delta Simulations’ add-ons.
@@ -34,94 +13,33 @@ The **UH-60M Blackhawk** is a medium-lift utility helicopter used for transport,
 
 | Feature | Description |
 |---------|-------------|
+| Simulated Version | UH-60M "Mike" w/ UES |
 | Crew | 2 Pilots + 2 Crew |
 | Passengers | Up to 11 |
 | Max Speed | 183 knots (211 mph) |
 | Service Ceiling | 19,000 ft |
 | Engines | 2 × T700-GE-701D Turboshaft |
 
-![UH-60 Blackhawk](images/uh60_sideview.png)
+## Simulated Variants
+| Variants | Description |
+|---------|-------------|
+| UH-60M | A base "Mike" model with UES, advanced flight control system, and upgraded rotor blades. Standard configuration for troop transport and utility missions. |
+| HH-60M | 2 Pilots + 2 Crew with dedicated medical evacuation configuration, including integrated patient treatment system, equipped with an external rescue hoist. |
+| HH-60W "Jolly Green II" |  - The US Air Force's newest Combat Search and Rescue (CSAR) helicopter featuring increased fuel capacity, advanced defensive systems, and improved armor protection for personnel recovery missions. |
+| HH-60U "Ghost Hawk" | A byproduct of a test cycle, these rarely seen aircraft are used as a testbed for Skunkworks UH-60M modifications and security of the Groom Lake area. |
+| MH-60M | Piloted exclusively by the U.S. Army's 160th Special Operations Aviation Regiment (SOAR), also known as the Night Stalkers, this special operations variant is equipped with several advanced sensors and capabilities to allow clandestine operations.|
+| MH-60M "DAP" | The DAP - Direct Action Penetrator, is the weaponised variant of the 160th's MH-60M. Using external stores, it can be equipped with several weapons platforms. |
+| S-70i | The civilian/international export variant, this can be customized for global customers. |
 
----
 
-## Cockpit Controls
+![UH-60 Blackhawk](../Assets/HH60M.png)
 
-### Primary Flight Controls
+<div class="grid cards" markdown>
 
-- **Cyclic Stick** – Controls pitch and roll
-- **Collective Lever** – Controls lift
-- **Anti-Torque Pedals** – Controls yaw
+-   [:octicons-arrow-left-24:{ .lg .middle } Home](../index.md)
+    
 
-### Instrument Panel
+-   [Startup :octicons-arrow-right-24:{ .lg .middle } ](Operations.md)
+    
 
-- **Primary Flight Display (PFD)**
-- **Multi-Function Display (MFD)**
-- **Engine and Fuel Gauges**
-
----
-
-## Systems
-
-### Engines
-
-- Dual T700-GE-701D engines
-- FADEC-controlled
-- Start procedure requires monitoring RPM, torque, and ITT
-
-### Avionics
-
-- GPS Navigation
-- Radio Communication
-- Flight Management System (FMS)
-
-### Fuel System
-
-- 4 main fuel tanks
-- Crossfeed system
-- Manual and automatic fuel transfer
-
----
-
-## Flight Procedures
-
-### Startup
-
-1. Battery ON
-2. External power if needed
-3. Fuel pumps ON
-4. Engine start sequence
-5. Check RPM, ITT, torque
-
-### Takeoff
-
-1. Collective up slowly
-2. Check torque and rotor RPM
-3. Increase collective to hover
-4. Transition to forward flight
-
-### Cruise
-
-- Maintain 150–160 knots for optimal fuel efficiency
-- Monitor engine instruments every 5–10 minutes
-
-### Landing
-
-- Reduce speed to 50–70 knots
-- Align with landing zone
-- Gradually decrease collective to land
-
-### Shutdown
-
-1. Reduce collective to idle
-2. Engines OFF
-3. Battery and systems OFF
-
----
-
-## Tips and Notes
-
-- Always monitor torque and ITT during startup and takeoff.
-- Use proper autorotation procedures in case of engine failure.
-- Follow weight and balance limits for safe flight.
-
----
+</div>
