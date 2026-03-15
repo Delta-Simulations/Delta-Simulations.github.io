@@ -1,17 +1,25 @@
-# Full
+# DELTA SIMULATIONS DOC HUB
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the Delta Simulations Documentation Hub, for any and all information about our projects
 
-## Updates
+## Quick Links
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [Getting Started]() – How to get set up quickly.
+- [Projects]() – Detailed info about our simulations and projects.
+- [Tutorials]() – Step-by-step guides.
+- [FAQs]() – Answers to common questions.
 
-## Project layout
+## Contact
+[Subscribe to our newsletter](#){ .md-button }
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+For questions or support, visit our main website: [Delta Simulations](https://www.deltasimulations.ca)
+[<i class="material-icons">info</i> Documentation]()
+
+[Subscribe to our newsletter](#){ .md-button .md-button--primary }
+<div class="grid cards" markdown>
+
+- [__C-17 Globemaster__]()
+- [__UH-60 Blackhawk__]()
+- [__KC-46A Pegasus__]()
+
+</div>

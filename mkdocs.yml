@@ -1,6 +1,28 @@
-site_name: "Delta Simulations Docs"
-site_url: "https://www.deltasimulations.ca"  # root domain
-site_dir: "dist/docs"                        # <-- output inside Vite dist
+site_name: Delta Simulations Docs
+site_url: https://www.deltasimulations.ca
+site_dir: dist/docs
+
+
+
 theme:
   name: material
+  favicon: Favicon.ico
+  logo: delta.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 use_directory_urls: true
+markdown_extensions:
+  - attr_list
+  - md_in_html
+extra_css:
+  - styles.css
+
