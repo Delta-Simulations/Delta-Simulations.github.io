@@ -9,6 +9,8 @@ Welcome to the Delta Simulations Documentation Hub, for any and all information 
 - [Tutorials]() – Step-by-step guides.
 - [FAQs]() – Answers to common questions.
 
+!!! example "You Should Know"
+    The documentation provided is a __Work in Progress__, and may feature incomplete information. Please refer to our Discord for the most up-to-date information.
 ## Contact
 [Subscribe to our newsletter](#){ .md-button }
 
