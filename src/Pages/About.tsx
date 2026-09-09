@@ -131,7 +131,7 @@ export const GallerySection = ({ title, subtitle, images }: GallerySectionProps)
 
 
 export const About = () => {
-  const startDate = new Date('2021-01-01')
+  const startDate = new Date('2020-10-01')
   const now = new Date()
 
   const yearsOfDevelopment = Math.floor(
@@ -141,11 +141,32 @@ export const About = () => {
   return (
     <div className="flex flex-col items-center justify-start gap-6 p-5">
       {/* Stats */}
-      <AboutStatsProvider
-        downloads={<NumberStats totalDownloads={400} subtext="K+" animationDuration={20} />}
-        yearsOfDevelopment={<NumberStats totalDownloads={yearsOfDevelopment} subtext="+" animationDuration={20} />}
-        contributors={<NumberStats totalDownloads={25} subtext="+" animationDuration={20} />}
-      />
+<AboutStatsProvider
+  downloads={
+    <NumberStats
+      totalDownloads={1.1}
+      subtext="M+"
+      decimals={1}
+      animationDuration={2500}
+    />
+  }
+  yearsOfDevelopment={
+    <NumberStats
+      totalDownloads={yearsOfDevelopment}
+      subtext="+"
+      decimals={0}
+      animationDuration={1500}
+    />
+  }
+  contributors={
+    <NumberStats
+      totalDownloads={30}
+      subtext="+"
+      decimals={0}
+      animationDuration={1500}
+    />
+  }
+/>
 
       {/* Projects & Gallery */}
       <div className="w-5/6 flex flex-col gap-6">
